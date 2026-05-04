@@ -26,7 +26,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 async def root():
-    return {"message" : "Hello There"}
+    return {"message" : "hello world!!!!!!!!"}
 
 # With JWT Authentication we do not store them in api or database but rather in the frontend. It is stateless,
 # there is nothing in database to keep track of whether a user is logged in or not
